@@ -1,0 +1,511 @@
+.EMPLEO {
+  background-color: #aebdcd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.EMPLEO .div {
+  background-color: #aebdcd;
+  width: 1440px;
+  height: 1474px;
+  position: relative;
+}
+
+.EMPLEO .overlap-group {
+  height: 140px;
+  top: 0;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.EMPLEO .menu {
+  position: absolute;
+  width: 1440px;
+  height: 140px;
+  top: 0;
+  left: 0;
+  background-color: #b4b4b4;
+}
+
+.EMPLEO .rectangle {
+  height: 140px;
+  background-color: #1a3059;
+}
+
+.EMPLEO .TITULOS-MEN {
+  position: absolute;
+  width: 124px;
+  height: 19px;
+  top: 65px;
+  left: 1045px;
+}
+
+.EMPLEO .texto-men {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.EMPLEO .texto-men-wrapper {
+  width: 50px;
+  left: 553px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.EMPLEO .div-wrapper {
+  width: 192px;
+  left: 625px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.EMPLEO .TITULOS-MEN-2 {
+  width: 94px;
+  left: 838px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.EMPLEO .TITULOS-MEN-3 {
+  width: 63px;
+  left: 957px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.EMPLEO .TITULOS-MEN-4 {
+  width: 46px;
+  left: 1194px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.EMPLEO .ellipse {
+  width: 110px;
+  height: 110px;
+  top: 15px;
+  position: absolute;
+  left: 200px;
+  object-fit: cover;
+}
+
+.EMPLEO .overlap {
+  height: 234px;
+  top: 1240px;
+  background-color: #1a3059;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.EMPLEO .img {
+  width: 90px;
+  height: 90px;
+  top: 25px;
+  position: absolute;
+  left: 200px;
+  object-fit: cover;
+}
+
+.EMPLEO .NIVEL {
+  position: absolute;
+  width: 380px;
+  height: 23px;
+  top: 42px;
+  left: 310px;
+}
+
+.EMPLEO .text-wrapper {
+  position: absolute;
+  width: 380px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.EMPLEO .NIVEL-wrapper {
+  position: absolute;
+  width: 340px;
+  height: 53px;
+  top: 42px;
+  left: 860px;
+}
+
+.EMPLEO .p {
+  position: absolute;
+  width: 340px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #78a7db;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.EMPLEO .NIVEL-2 {
+  position: absolute;
+  width: 380px;
+  height: 23px;
+  top: 82px;
+  left: 310px;
+}
+
+.EMPLEO .NIVEL-3 {
+  position: absolute;
+  width: 380px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fcfcfc;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.EMPLEO .LINEAS {
+  width: 360px;
+  top: 76px;
+  left: 310px;
+  background-image: url(./img/linee-1-8.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  height: 1px;
+}
+
+.EMPLEO .LINEAS-2 {
+  width: 1440px;
+  top: 144px;
+  left: 0;
+  background-image: url(./img/linee-1-7.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  height: 1px;
+}
+
+.EMPLEO .rol {
+  position: absolute;
+  width: 602px;
+  height: 22px;
+  top: 180px;
+  left: 638px;
+}
+
+.EMPLEO .ROL {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fcfcfc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.EMPLEO .LINEAS-3 {
+  width: 1040px;
+  top: 239px;
+  left: 200px;
+  background-image: url(./img/linee-1-6.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  height: 1px;
+}
+
+.EMPLEO .NIVEL-4 {
+  position: absolute;
+  width: 377px;
+  height: 23px;
+  top: 197px;
+  left: 200px;
+}
+
+.EMPLEO .NIVEL-5 {
+  position: absolute;
+  width: 377px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #112444;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.EMPLEO .DESCRIPCIN-NIVEL {
+  position: absolute;
+  width: 1034px;
+  height: 88px;
+  top: 1071px;
+  left: 200px;
+}
+
+.EMPLEO .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  width: 1034px;
+  height: 88px;
+  top: -1px;
+}
+
+.EMPLEO .text-i {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #112444;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.EMPLEO .span {
+  font-weight: 600;
+}
+
+.EMPLEO .text-wrapper-2 {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #112444;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.EMPLEO .group {
+  position: absolute;
+  width: 930px;
+  height: 728px;
+  top: 282px;
+  left: 255px;
+}
+
+.EMPLEO .LISTA-OPININ {
+  position: absolute;
+  width: 930px;
+  height: 108px;
+  top: 0;
+  left: 0;
+}
+
+.EMPLEO .texto-opiniones {
+  position: absolute;
+  width: 834px;
+  height: 61px;
+  top: 40px;
+  left: 43px;
+}
+
+.EMPLEO .excelente-nivel-acad {
+  position: absolute;
+  width: 834px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1a3059;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.EMPLEO .TITULOCARD-OPINIONES {
+  position: absolute;
+  width: 213px;
+  height: 17px;
+  top: 0;
+  left: 43px;
+}
+
+.EMPLEO .NOMBRE {
+  width: 213px;
+  font-weight: 600;
+  color: #112444;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.EMPLEO .NOMBRE-wrapper {
+  width: 90px;
+  left: 780px;
+  position: absolute;
+  height: 17px;
+  top: 0;
+}
+
+.EMPLEO .NOMBRE-2 {
+  width: 90px;
+  font-weight: 400;
+  color: #2a2a2b;
+  text-align: right;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.EMPLEO .LISTA-OPININ-2 {
+  top: 150px;
+  position: absolute;
+  width: 930px;
+  height: 108px;
+  left: 0;
+}
+
+.EMPLEO .LISTA-OPININ-3 {
+  top: 300px;
+  position: absolute;
+  width: 930px;
+  height: 108px;
+  left: 0;
+}
+
+.EMPLEO .TITULOCARD-OPINIONES-2 {
+  width: 422px;
+  left: 43px;
+  position: absolute;
+  height: 17px;
+  top: 0;
+}
+
+.EMPLEO .NOMBRE-3 {
+  width: 422px;
+  font-weight: 600;
+  color: #112444;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.EMPLEO .LISTA-OPININ-4 {
+  top: 450px;
+  position: absolute;
+  width: 930px;
+  height: 108px;
+  left: 0;
+}
+
+.EMPLEO .LISTA-OPININ-5 {
+  top: 600px;
+  position: absolute;
+  width: 930px;
+  height: 108px;
+  left: 0;
+}
+
+.EMPLEO .line-wrapper {
+  width: 930px;
+  top: 128px;
+  left: 0;
+  position: absolute;
+  height: 1px;
+}
+
+.EMPLEO .line {
+  position: absolute;
+  width: 930px;
+  height: 1px;
+  top: -1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.EMPLEO .img-wrapper {
+  width: 930px;
+  top: 278px;
+  left: 0;
+  position: absolute;
+  height: 1px;
+}
+
+.EMPLEO .LINEAS-4 {
+  width: 930px;
+  top: 428px;
+  left: 0;
+  position: absolute;
+  height: 1px;
+}
+
+.EMPLEO .LINEAS-5 {
+  width: 930px;
+  top: 578px;
+  left: 0;
+  position: absolute;
+  height: 1px;
+}
+
+.EMPLEO .LINEAS-6 {
+  width: 930px;
+  top: 728px;
+  left: 0;
+  position: absolute;
+  height: 1px;
+}
+.enlace_blanco{
+  color:white;
+  transition: box-shadow 0.3s ease;
+}
+.enlace_blanco:hover {
+  color:#6AA5E7;
+  
+}
+.enlace_blanco2{
+  color:white;
+  transition: box-shadow 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.enlace_blanco2:hover {
+  color:#6AA5E7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}

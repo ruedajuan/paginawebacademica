@@ -1,0 +1,675 @@
+.INSCRIPCIONES {
+  background-color: #aebdcd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.INSCRIPCIONES .div {
+  background-color: #aebdcd;
+  width: 1440px;
+  height: 1700px;
+  position: relative;
+}
+
+.INSCRIPCIONES .overlap-group {
+  height: 140px;
+  top: 0;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.INSCRIPCIONES .menu {
+  position: absolute;
+  width: 1440px;
+  height: 140px;
+  top: 0;
+  left: 0;
+  background-color: #b4b4b4;
+}
+
+.INSCRIPCIONES .rectangle {
+  height: 140px;
+  background-color: #1a3059;
+}
+
+.INSCRIPCIONES .TITULOS-MEN {
+  position: absolute;
+  width: 124px;
+  height: 19px;
+  top: 65px;
+  left: 1045px;
+}
+
+.INSCRIPCIONES .texto-men {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.INSCRIPCIONES .texto-men-wrapper {
+  width: 50px;
+  left: 553px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.INSCRIPCIONES .div-wrapper {
+  width: 192px;
+  left: 625px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.INSCRIPCIONES .TITULOS-MEN-2 {
+  width: 94px;
+  left: 838px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.INSCRIPCIONES .TITULOS-MEN-3 {
+  width: 63px;
+  left: 957px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.INSCRIPCIONES .TITULOS-MEN-4 {
+  width: 46px;
+  left: 1194px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.INSCRIPCIONES .ellipse {
+  width: 110px;
+  height: 110px;
+  top: 15px;
+  position: absolute;
+  left: 200px;
+  object-fit: cover;
+}
+
+.INSCRIPCIONES .overlap {
+  height: 234px;
+  top: 1466px;
+  background-color: #1a3059;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.INSCRIPCIONES .img {
+  width: 90px;
+  height: 90px;
+  top: 25px;
+  position: absolute;
+  left: 200px;
+  object-fit: cover;
+}
+
+.INSCRIPCIONES .NIVEL {
+  position: absolute;
+  width: 380px;
+  height: 23px;
+  top: 42px;
+  left: 310px;
+}
+
+.INSCRIPCIONES .text-wrapper {
+  position: absolute;
+  width: 380px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.INSCRIPCIONES .NIVEL-wrapper {
+  position: absolute;
+  width: 340px;
+  height: 53px;
+  top: 42px;
+  left: 860px;
+}
+
+.INSCRIPCIONES .p {
+  position: absolute;
+  width: 340px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #78a7db;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.INSCRIPCIONES .NIVEL-2 {
+  position: absolute;
+  width: 380px;
+  height: 23px;
+  top: 82px;
+  left: 310px;
+}
+
+.INSCRIPCIONES .NIVEL-3 {
+  position: absolute;
+  width: 380px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fcfcfc;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.INSCRIPCIONES .LINEAS {
+  width: 360px;
+  top: 76px;
+  left: 310px;
+  background-image: url(./img/linein-1-5.svg);
+  position: absolute;
+  height: 1px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.INSCRIPCIONES .LINEAS-2 {
+  width: 1440px;
+  top: 144px;
+  left: 0;
+  background-image: url(./img/linein-1-4.svg);
+  position: absolute;
+  height: 1px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.INSCRIPCIONES .rol {
+  position: absolute;
+  width: 602px;
+  height: 22px;
+  top: 180px;
+  left: 638px;
+}
+
+.INSCRIPCIONES .ROL {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fcfcfc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.INSCRIPCIONES .LINEAS-3 {
+  width: 1040px;
+  top: 239px;
+  left: 200px;
+  background-image: url(./img/linein-1-3.svg);
+  position: absolute;
+  height: 1px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.INSCRIPCIONES .LINEAS-4 {
+  width: 1040px;
+  top: 380px;
+  left: 200px;
+  background-image: url(./img/linein-1-1.svg);
+  position: absolute;
+  height: 1px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.INSCRIPCIONES .LINEAS-5 {
+  width: 1040px;
+  top: 680px;
+  left: 200px;
+  background-image: url(./img/linein-1-1.svg);
+  position: absolute;
+  height: 1px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.INSCRIPCIONES .NIVEL-4 {
+  position: absolute;
+  width: 377px;
+  height: 23px;
+  top: 197px;
+  left: 200px;
+}
+
+.INSCRIPCIONES .NIVEL-5 {
+  position: absolute;
+  width: 377px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #112444;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.INSCRIPCIONES .NIVEL-6 {
+  position: absolute;
+  width: 448px;
+  height: 19px;
+  top: 351px;
+  left: 496px;
+}
+
+.INSCRIPCIONES .NIVEL-7 {
+  position: absolute;
+  width: 448px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #0f6dd4;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.INSCRIPCIONES .NIVEL-8 {
+  position: absolute;
+  width: 448px;
+  height: 19px;
+  top: 651px;
+  left: 496px;
+}
+
+.INSCRIPCIONES .INPUTS {
+  width: 490px;
+  height: 50px;
+  top: 450px;
+  left: 200px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-2 {
+  width: 490px;
+  height: 50px;
+  top: 750px;
+  left: 200px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-3 {
+  width: 490px;
+  height: 50px;
+  top: 560px;
+  left: 200px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-4 {
+  width: 490px;
+  height: 50px;
+  top: 860px;
+  left: 200px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-5 {
+  width: 490px;
+  height: 50px;
+  top: 970px;
+  left: 200px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-6 {
+  width: 1041px;
+  height: 240px;
+  top: 1080px;
+  left: 200px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .BOTN {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  top: 1350px;
+  left: 1100px;
+  background-color: #203e70;
+  border-radius: 100px;
+}
+
+.INSCRIPCIONES .frame {
+  position: relative;
+  width: 85px;
+  height: 14px;
+  top: 11px;
+  left: 28px;
+}
+
+.INSCRIPCIONES .VER-m-s {
+  position: absolute;
+  width: 85px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  background-color:#203e70;
+  border: none; 
+  cursor: pointer;
+}
+
+.INSCRIPCIONES .INPUTS-7 {
+  width: 490px;
+  height: 50px;
+  top: 970px;
+  left: 750px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-8 {
+  width: 490px;
+  height: 50px;
+  top: 560px;
+  left: 750px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-9 {
+  width: 490px;
+  height: 50px;
+  top: 860px;
+  left: 750px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-10 {
+  width: 492px;
+  height: 50px;
+  top: 450px;
+  left: 749px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .INPUTS-11 {
+  width: 492px;
+  height: 50px;
+  top: 750px;
+  left: 749px;
+  position: absolute;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .NIVEL-9 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 421px;
+  left: 200px;
+}
+
+.INSCRIPCIONES .NIVEL-10 {
+  position: absolute;
+  width: 160px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #112444;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.INSCRIPCIONES .NIVEL-10 input[type="text"] {
+  
+  width: 490px; /* Cambia el ancho del cuadro de texto a 300 píxeles */
+  height: 45px;
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde con color gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  border-color: #112444;
+}
+.INSCRIPCIONES .NIVEL-10 input[type="email"] {
+  
+  width: 490px; /* Cambia el ancho del cuadro de texto a 300 píxeles */
+  height: 45px;
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde con color gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  border-color: #112444;
+}
+
+.INSCRIPCIONES .NIVEL-11 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 721px;
+  left: 200px;
+}
+
+.INSCRIPCIONES .NIVEL-12 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 531px;
+  left: 200px;
+}
+
+.INSCRIPCIONES .NIVEL-13 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 831px;
+  left: 200px;
+}
+
+.INSCRIPCIONES .NIVEL-14 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 941px;
+  left: 200px;
+}
+
+.INSCRIPCIONES .NIVEL-15 {
+  position: absolute;
+  width: 360px;
+  height: 19px;
+  top: 1051px;
+  left: 200px;
+}
+
+.INSCRIPCIONES .NIVEL-16 {
+  position: absolute;
+  width: 360px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #112444;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.miTextarea {
+  
+  width: 1041px; /* Cambia el ancho del cuadro de texto a 300 píxeles */
+  height: 235px;
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde con color gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  border-color: #28426e;
+  vertical-align: top; /* Alinea el texto en la parte superior del cuadro de texto */
+  overflow-y: auto; /* Habilita la barra de desplazamiento vertical si el contenido excede la altura del cuadro de texto */
+  font-size:x-large;
+}
+
+
+.INSCRIPCIONES .NIVEL-17 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 941px;
+  left: 750px;
+}
+
+.INSCRIPCIONES .NIVEL-18 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 531px;
+  left: 750px;
+}
+
+.INSCRIPCIONES .NIVEL-19 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 831px;
+  left: 750px;
+}
+
+.INSCRIPCIONES .NIVEL-20 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 421px;
+  left: 749px;
+}
+
+.INSCRIPCIONES .NIVEL-21 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 721px;
+  left: 749px;
+}
+
+.INSCRIPCIONES .DESCRIPCIN-NIVEL {
+  position: absolute;
+  width: 1034px;
+  height: 18px;
+  top: 262px;
+  left: 200px;
+}
+
+.INSCRIPCIONES .nuestro-nivel {
+  position: absolute;
+  width: 1034px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #112444;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.enlace_blanco{
+  color:white;
+  transition: box-shadow 0.3s ease;
+}
+.enlace_blanco:hover {
+  color:#6AA5E7;
+  
+}
+.enlace_blanco2{
+  color:white;
+  transition: box-shadow 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.enlace_blanco2:hover {
+  color:#6AA5E7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}

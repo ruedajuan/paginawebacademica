@@ -1,0 +1,532 @@
+.REGISTRARME {
+  background-color: #aebdcd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.REGISTRARME .div {
+  background-color: #aebdcd;
+  width: 1440px;
+  height: 1320px;
+  position: relative;
+}
+
+.REGISTRARME .overlap {
+  height: 140px;
+  top: 0;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.REGISTRARME .menu {
+  position: absolute;
+  width: 1440px;
+  height: 140px;
+  top: 0;
+  left: 0;
+  background-color: #b4b4b4;
+}
+
+.REGISTRARME .rectangle {
+  height: 140px;
+  background-color: #1a3059;
+}
+
+.REGISTRARME .TITULOS-MEN {
+  position: absolute;
+  width: 124px;
+  height: 19px;
+  top: 65px;
+  left: 1045px;
+}
+
+.REGISTRARME .texto-men {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.REGISTRARME .texto-men-wrapper {
+  width: 50px;
+  left: 553px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.REGISTRARME .div-wrapper {
+  width: 192px;
+  left: 625px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.REGISTRARME .TITULOS-MEN-2 {
+  width: 94px;
+  left: 838px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.REGISTRARME .TITULOS-MEN-3 {
+  width: 63px;
+  left: 957px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.REGISTRARME .TITULOS-MEN-4 {
+  width: 46px;
+  left: 1194px;
+  position: absolute;
+  height: 19px;
+  top: 65px;
+}
+
+.REGISTRARME .ellipse {
+  width: 110px;
+  height: 110px;
+  top: 15px;
+  position: absolute;
+  left: 200px;
+  object-fit: cover;
+}
+
+.REGISTRARME .overlap-group {
+  height: 234px;
+  top: 1086px;
+  background-color: #1a3059;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.REGISTRARME .img {
+  width: 90px;
+  height: 90px;
+  top: 25px;
+  position: absolute;
+  left: 200px;
+  object-fit: cover;
+}
+
+.REGISTRARME .NIVEL {
+  position: absolute;
+  width: 380px;
+  height: 23px;
+  top: 42px;
+  left: 310px;
+}
+
+.REGISTRARME .text-wrapper {
+  position: absolute;
+  width: 380px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.REGISTRARME .frame {
+  position: absolute;
+  width: 340px;
+  height: 53px;
+  top: 42px;
+  left: 860px;
+}
+
+.REGISTRARME .NIVEL-wrapper {
+  position: relative;
+  height: 53px;
+}
+
+.REGISTRARME .p {
+  position: absolute;
+  width: 340px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #78a7db;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.REGISTRARME .NIVEL-2 {
+  position: absolute;
+  width: 380px;
+  height: 23px;
+  top: 82px;
+  left: 310px;
+}
+
+.REGISTRARME .NIVEL-3 {
+  position: absolute;
+  width: 380px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fcfcfc;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.REGISTRARME .LINEAS {
+  width: 360px;
+  top: 76px;
+  left: 310px;
+  background-image: url(./img/line-1-2.svg);
+  position: absolute;
+  height: 1px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.REGISTRARME .LINEAS-2 {
+  width: 1440px;
+  top: 144px;
+  left: 0;
+  background-image: url(./img/line-1-1.svg);
+  position: absolute;
+  height: 1px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.REGISTRARME .rol {
+  position: absolute;
+  width: 602px;
+  height: 22px;
+  top: 180px;
+  left: 638px;
+}
+
+.REGISTRARME .ROL {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #fcfcfc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.REGISTRARME .overlap-group-2 {
+  height: 946px;
+  top: 140px;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.REGISTRARME .INPUTS {
+  top: 120px;
+  position: absolute;
+  width: 460px;
+  height: 60px;
+  left: 490px;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.REGISTRARME .INPUTS-2 {
+  top: 230px;
+  position: absolute;
+  width: 460px;
+  height: 60px;
+  left: 490px;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.REGISTRARME .INPUTS-3 {
+  top: 340px;
+  position: absolute;
+  width: 460px;
+  height: 60px;
+  left: 490px;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.REGISTRARME .INPUTS-4 {
+  top: 450px;
+  position: absolute;
+  width: 460px;
+  height: 60px;
+  left: 490px;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.REGISTRARME .INPUTS-5 {
+  top: 560px;
+  position: absolute;
+  width: 460px;
+  height: 60px;
+  left: 490px;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.REGISTRARME .INPUTS-6 {
+  top: 670px;
+  position: absolute;
+  width: 460px;
+  height: 60px;
+  left: 490px;
+  background-color: #fcfcfc40;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #112444;
+}
+
+.REGISTRARME .NIVEL-4 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 91px;
+  left: 490px;
+}
+
+.REGISTRARME .NIVEL-5 {
+  position: absolute;
+  width: 160px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #112444;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.REGISTRARME .NIVEL-6 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 201px;
+  left: 490px;
+}
+
+.REGISTRARME .NIVEL-7 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 311px;
+  left: 490px;
+}
+
+.REGISTRARME .NIVEL-8 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 421px;
+  left: 490px;
+}
+
+.REGISTRARME .NIVEL-9 {
+  position: absolute;
+  width: 200px;
+  height: 19px;
+  top: 531px;
+  left: 490px;
+}
+
+.REGISTRARME .NIVEL-10 {
+  position: absolute;
+  width: 200px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #112444;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.REGISTRARME .NIVEL-11 {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  top: 641px;
+  left: 490px;
+}
+
+.REGISTRARME .NIVEL-12 {
+  position: absolute;
+  width: 247px;
+  height: 23px;
+  top: 47px;
+  left: 597px;
+}
+
+.REGISTRARME .NIVEL-13 {
+  position: absolute;
+  width: 247px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #112444;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.REGISTRARME .BOTN {
+  width: 460px;
+  top: 810px;
+  left: 490px;
+  position: absolute;
+  height: 40px;
+  background-color: #203e70;
+  border-radius: 100px;
+}
+
+.REGISTRARME .VER-m-s-wrapper {
+  position: relative;
+  width: 279px;
+  height: 14px;
+  top: 11px;
+  left: 92px;
+}
+
+.REGISTRARME .VER-m-s {
+  position: absolute;
+  width: 279px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.REGISTRARME .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 946px;
+  top: 0;
+  left: 0;
+  background-color: #112444cc;
+}
+
+.REGISTRARME .rectangle-3 {
+  position: absolute;
+  width: 530px;
+  height: 380px;
+  top: 244px;
+  left: 455px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.REGISTRARME .NIVEL-14 {
+  position: absolute;
+  width: 443px;
+  height: 75px;
+  top: 409px;
+  left: 499px;
+}
+
+.REGISTRARME .NIVEL-15 {
+  position: absolute;
+  width: 443px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #112444;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.REGISTRARME .vector {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 300px;
+  left: 675px;
+}
+
+.REGISTRARME .frame-wrapper {
+  width: 140px;
+  top: 540px;
+  left: 650px;
+  position: absolute;
+  height: 40px;
+  background-color: #203e70;
+  border-radius: 100px;
+}
+
+.REGISTRARME .frame-2 {
+  position: relative;
+  width: 85px;
+  height: 14px;
+  top: 11px;
+  left: 28px;
+}
+
+.REGISTRARME .VER-m-s-2 {
+  position: absolute;
+  width: 85px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: white !important;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
